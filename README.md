@@ -1,4 +1,4 @@
-  <h2 align="center"><img src="https://raw.githubusercontent.com/7oSkaaa/7oSkaaa/main/Images/about_me.gif" height="150" alt="programmer"  /><br><br>Hi 👋! My name is imesh sandeepa and I'm a web developer from Sri Lanka</h2>
+  <h2 align="center"><img src="https://raw.githubusercontent.com/7oSkaaa/7oSkaaa/main/Images/about_me.gif" height="150" alt="programmer"  /><br><br>Hi 👋! My name is Imesh Sandeepa and I'm a web developer from Sri Lanka</h2>
 
 
 ###
