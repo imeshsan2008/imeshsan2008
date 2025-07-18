@@ -32,9 +32,8 @@
 ### 📈 Visitor Counter
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/imeshsan2008/count.svg" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=yimeshsan2008" alt="Profile views" />
 </div>
-![Profile view counter](https://komarev.com/ghpvc/?username=your-imeshsan2008)
 
 ---
 
