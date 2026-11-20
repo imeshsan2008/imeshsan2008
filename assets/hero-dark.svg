@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="230" viewBox="0 0 880 230" role="img" aria-label="Imesh Sandeepa — Full-Stack Developer, Web and Graphic Designer, Founder at Vexora IT Solutions">
+  <defs>
+    <clipPath id="card-clip">
+      <rect x="0.5" y="0.5" width="879" height="229" rx="8" />
+    </clipPath>
+    <pattern id="tech-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#21262D" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 800; font-size: 38px; letter-spacing: -0.8px; fill: #E6EDF3; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 500; font-size: 14.5px; fill: #8B949E; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
+    .pill-text { font-size: 10.5px; font-weight: 600; letter-spacing: 0.9px; fill: #E6EDF3; }
+    .chip-text { font-size: 10.5px; font-weight: 600; letter-spacing: 0.6px; fill: #C9D1D9; }
+    .meta { font-size: 10px; font-weight: 500; letter-spacing: 0.8px; fill: #6E7681; }
+    .monogram { font-size: 20px; font-weight: 800; letter-spacing: 2px; fill: #E6EDF3; }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0.25; }
+    }
+    .status-dot { animation: blink 1.8s steps(2, end) infinite; }
+  </style>
+
+  <g clip-path="url(#card-clip)">
+    <!-- Base matte canvas -->
+    <rect x="0" y="0" width="880" height="230" fill="#0D1117" />
+    <!-- Subtle architectural grid -->
+    <rect x="0" y="0" width="880" height="230" fill="url(#tech-grid)" opacity="0.55" />
+    <!-- Right technical panel tint -->
+    <rect x="612" y="0" width="268" height="230" fill="#161B22" />
+    <line x1="612" y1="0" x2="612" y2="230" stroke="#30363D" stroke-width="1" />
+    <!-- Left flat structural crimson accent bar -->
+    <rect x="0" y="0" width="5" height="230" fill="#DC2626" />
+  </g>
+
+  <!-- Card 1px hairline border -->
+  <rect x="0.5" y="0.5" width="879" height="229" rx="8" fill="none" stroke="#30363D" stroke-width="1" />
+
+  <!-- Corner registration ticks -->
+  <path d="M 16 14 L 24 14 M 16 14 L 16 22" stroke="#484F58" stroke-width="1" fill="none" />
+  <path d="M 864 14 L 856 14 M 864 14 L 864 22" stroke="#484F58" stroke-width="1" fill="none" />
+  <path d="M 16 216 L 24 216 M 16 216 L 16 208" stroke="#484F58" stroke-width="1" fill="none" />
+  <path d="M 864 216 L 856 216 M 864 216 L 864 208" stroke="#484F58" stroke-width="1" fill="none" />
+
+  <!-- Status pill (flat, no glow) -->
+  <rect x="34" y="28" width="372" height="24" rx="3" fill="#161B22" stroke="#30363D" stroke-width="1" />
+  <rect x="45" y="37" width="6" height="6" rx="1" fill="#DC2626" class="status-dot" />
+  <text x="60" y="44" class="mono pill-text">AVAILABLE FOR PROJECTS · SRI LANKA (UTC+5:30)</text>
+
+  <!-- Primary editorial identity -->
+  <text x="34" y="102" class="title">IMESH SANDEEPA<tspan fill="#DC2626">.</tspan></text>
+  <text x="34" y="131" class="subtitle">Full-Stack Developer  ·  Web &amp; Graphic Designer  ·  Founder @ Vexora IT Solutions</text>
+
+  <!-- Hairline separator -->
+  <line x1="34" y1="152" x2="578" y2="152" stroke="#21262D" stroke-width="1" />
+
+  <!-- Flat capability chips -->
+  <g transform="translate(34, 170)">
+    <rect x="0" y="0" width="132" height="26" rx="3" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <rect x="0" y="0" width="3" height="26" fill="#DC2626" />
+    <text x="68" y="17" text-anchor="middle" class="mono chip-text">SAAS &amp; WEB APPS</text>
+
+    <rect x="142" y="0" width="120" height="26" rx="3" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <text x="202" y="17" text-anchor="middle" class="mono chip-text">UI/UX SYSTEMS</text>
+
+    <rect x="272" y="0" width="120" height="26" rx="3" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <text x="332" y="17" text-anchor="middle" class="mono chip-text">PYTHON &amp; NODE</text>
+
+    <rect x="402" y="0" width="142" height="26" rx="3" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <text x="473" y="17" text-anchor="middle" class="mono chip-text">CHROME &amp; DESKTOP</text>
+  </g>
+
+  <!-- Right architectural geometric emblem (strictly flat, zero glow) -->
+  <g transform="translate(746, 106)">
+    <!-- Static axis hairlines -->
+    <line x1="-82" y1="0" x2="-62" y2="0" stroke="#30363D" stroke-width="1" />
+    <line x1="62" y1="0" x2="82" y2="0" stroke="#30363D" stroke-width="1" />
+    <line x1="0" y1="-82" x2="0" y2="-62" stroke="#30363D" stroke-width="1" />
+    <line x1="0" y1="62" x2="0" y2="82" stroke="#30363D" stroke-width="1" />
+
+    <!-- Slowly rotating dashed compass ring -->
+    <g>
+      <circle cx="0" cy="0" r="68" fill="none" stroke="#30363D" stroke-width="1" stroke-dasharray="4 6" />
+      <rect x="-2" y="-71" width="4" height="6" fill="#DC2626" />
+      <rect x="-2" y="65" width="4" height="6" fill="#484F58" />
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="48s" repeatCount="indefinite" />
+    </g>
+
+    <!-- Counter-rotating architectural octagon/square -->
+    <g>
+      <rect x="-40" y="-40" width="80" height="80" fill="none" stroke="#30363D" stroke-width="1" transform="rotate(45)" />
+      <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="36s" repeatCount="indefinite" />
+    </g>
+
+    <!-- Inner solid hairline frame -->
+    <rect x="-32" y="-32" width="64" height="64" rx="4" fill="#0D1117" stroke="#484F58" stroke-width="1" />
+    <rect x="22" y="-26" width="6" height="6" fill="#DC2626" />
+    <text x="0" y="7" text-anchor="middle" class="mono monogram">IS</text>
+  </g>
+
+  <!-- Technical coordinate footer -->
+  <text x="746" y="208" text-anchor="middle" class="mono meta">06°57'N  79°55'E  //  EST. 2022</text>
+</svg>

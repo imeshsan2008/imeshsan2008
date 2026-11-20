@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="432" viewBox="0 0 880 432" role="img" aria-label="Interactive Connect Four board — Match #1">
+  <defs>
+    <clipPath id="c4-clip-light">
+      <rect x="0.5" y="0.5" width="879" height="431" rx="8" />
+    </clipPath>
+    <pattern id="c4-grid-light" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#EAEEF2" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
+    .col-num { font-size: 11px; font-weight: 700; letter-spacing: 0.6px; }
+    .col-x { font-size: 12px; font-weight: 700; }
+    .h-title { font-size: 15px; font-weight: 800; letter-spacing: 1px; fill: #1F2328; }
+    .h-sub { font-size: 10.5px; font-weight: 600; letter-spacing: 0.8px; fill: #57606A; }
+    .st-main { font-size: 16px; font-weight: 800; letter-spacing: 0.6px; fill: #1F2328; }
+    .st-sub { font-size: 11px; font-weight: 500; fill: #57606A; }
+    .lbl { font-size: 9.5px; font-weight: 700; letter-spacing: 1px; fill: #656D76; }
+    .val { font-size: 20px; font-weight: 800; fill: #1F2328; }
+    .val-accent { font-size: 20px; font-weight: 800; fill: #CC0000; }
+    .log { font-size: 11px; font-weight: 600; fill: #1F2328; }
+    .log-muted { font-size: 11px; font-weight: 500; fill: #57606A; }
+    .legend { font-size: 11px; font-weight: 600; fill: #1F2328; }
+    @keyframes dropIn {
+      0% { transform: translateY(-22px); opacity: 0.4; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+    .drop-in { animation: dropIn 0.35s ease-out both; }
+  </style>
+
+  <g clip-path="url(#c4-clip-light)">
+    <rect x="0" y="0" width="880" height="432" fill="#FFFFFF" />
+    <rect x="0" y="0" width="880" height="432" fill="url(#c4-grid-light)" opacity="0.45" />
+    <!-- Right telemetry console background -->
+    <rect x="536" y="0" width="344" height="432" fill="#F6F8FA" />
+    <line x1="536" y1="0" x2="536" y2="432" stroke="#D0D7DE" stroke-width="1" />
+  </g>
+
+  <!-- Outer 1px border -->
+  <rect x="0.5" y="0.5" width="879" height="431" rx="8" fill="none" stroke="#D0D7DE" stroke-width="1" />
+
+  <!-- Left Board Frame -->
+  <rect x="24" y="24" width="484" height="384" rx="6" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1" />
+  <line x1="24" y1="68" x2="508" y2="68" stroke="#D0D7DE" stroke-width="1" />
+
+  <!-- Column headers -->
+  <text x="68" y="48" text-anchor="middle" class="mono col-num" fill="#1F2328">01</text><polygon points="64,55 72,55 68,61" fill="#CC0000" /><text x="134" y="48" text-anchor="middle" class="mono col-num" fill="#1F2328">02</text><polygon points="130,55 138,55 134,61" fill="#CC0000" /><text x="200" y="48" text-anchor="middle" class="mono col-num" fill="#1F2328">03</text><polygon points="196,55 204,55 200,61" fill="#CC0000" /><text x="266" y="48" text-anchor="middle" class="mono col-num" fill="#1F2328">04</text><polygon points="262,55 270,55 266,61" fill="#CC0000" /><text x="332" y="48" text-anchor="middle" class="mono col-num" fill="#1F2328">05</text><polygon points="328,55 336,55 332,61" fill="#CC0000" /><text x="398" y="48" text-anchor="middle" class="mono col-num" fill="#1F2328">06</text><polygon points="394,55 402,55 398,61" fill="#CC0000" /><text x="464" y="48" text-anchor="middle" class="mono col-num" fill="#1F2328">07</text><polygon points="460,55 468,55 464,61" fill="#CC0000" />
+
+  <!-- Subtle column vertical guides -->
+  <line x1="101" y1="70" x2="101" y2="386" stroke="#E5E9EE" stroke-width="1" /><line x1="167" y1="70" x2="167" y2="386" stroke="#E5E9EE" stroke-width="1" /><line x1="233" y1="70" x2="233" y2="386" stroke="#E5E9EE" stroke-width="1" /><line x1="299" y1="70" x2="299" y2="386" stroke="#E5E9EE" stroke-width="1" /><line x1="365" y1="70" x2="365" y2="386" stroke="#E5E9EE" stroke-width="1" /><line x1="431" y1="70" x2="431" y2="386" stroke="#E5E9EE" stroke-width="1" />
+
+  <!-- Board slots & pieces -->
+  <circle cx="68" cy="94" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="134" cy="94" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="200" cy="94" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="266" cy="94" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="332" cy="94" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="398" cy="94" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="464" cy="94" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="68" cy="147" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="134" cy="147" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="200" cy="147" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="266" cy="147" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="332" cy="147" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="398" cy="147" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="464" cy="147" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="68" cy="200" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="134" cy="200" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="200" cy="200" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="266" cy="200" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="332" cy="200" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="398" cy="200" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="464" cy="200" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="68" cy="253" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="134" cy="253" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="200" cy="253" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="266" cy="253" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="332" cy="253" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="398" cy="253" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="464" cy="253" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="68" cy="306" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="134" cy="306" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="200" cy="306" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="266" cy="306" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="332" cy="306" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="398" cy="306" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="464" cy="306" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="68" cy="359" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="134" cy="359" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="200" cy="359" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="266" cy="359" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="332" cy="359" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="398" cy="359" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" /><circle cx="464" cy="359" r="20" fill="#FFFFFF" stroke="#C9D1D9" stroke-width="1" />
+  
+
+  <!-- Right Console Header -->
+  <rect x="560" y="24" width="4" height="22" fill="#CC0000" />
+  <text x="574" y="38" class="mono h-title">CONNECT FOUR</text>
+  <text x="574" y="53" class="mono h-sub">MATCH #01  ·  MOVES: 00</text>
+  <line x1="560" y1="68" x2="856" y2="68" stroke="#D0D7DE" stroke-width="1" />
+
+  <!-- Status Panel -->
+  <rect x="560" y="84" width="296" height="62" rx="4" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="1" />
+  <rect x="560" y="84" width="4" height="62" fill="#CC0000" />
+  <text x="576" y="110" class="mono st-main">YOUR TURN</text>
+  <text x="576" y="131" class="sans st-sub">Click a column button below to drop</text>
+
+  <!-- Players Legend -->
+  <text x="560" y="172" class="mono lbl">PLAYERS</text>
+  <circle cx="569" cy="190" r="6" fill="#CC0000" />
+  <text x="583" y="194" class="mono legend">VISITOR</text>
+  <text x="646" y="194" class="mono log-muted">(Crimson)</text>
+
+  <circle cx="729" cy="190" r="6" fill="#1F2328" stroke="#D0D7DE" stroke-width="1" />
+  <text x="743" y="194" class="mono legend">IMESH AI</text>
+  <text x="807" y="194" class="mono log-muted">(D5)</text>
+
+  <!-- Scoreboard -->
+  <text x="560" y="226" class="mono lbl">ALL-TIME SCOREBOARD</text>
+  <g transform="translate(560, 236)">
+    <rect x="0" y="0" width="92" height="58" rx="4" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="1" />
+    <text x="46" y="20" text-anchor="middle" class="mono lbl">VISITORS</text>
+    <text x="46" y="45" text-anchor="middle" class="mono val-accent">0</text>
+
+    <rect x="102" y="0" width="92" height="58" rx="4" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="1" />
+    <text x="148" y="20" text-anchor="middle" class="mono lbl">DRAWS</text>
+    <text x="148" y="45" text-anchor="middle" class="mono val">0</text>
+
+    <rect x="204" y="0" width="92" height="58" rx="4" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="1" />
+    <text x="250" y="20" text-anchor="middle" class="mono lbl">IMESH AI</text>
+    <text x="250" y="45" text-anchor="middle" class="mono val">0</text>
+  </g>
+
+  <!-- Last Move Log -->
+  <text x="560" y="318" class="mono lbl">LAST TURN</text>
+  <rect x="560" y="326" width="296" height="46" rx="4" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="1" />
+  <text x="572" y="345" class="mono log">Awaiting opening move...</text>
+  <text x="572" y="363" class="mono log-muted">Engine ready · Minimax Depth 5</text>
+
+  <!-- Recent Challengers -->
+  <text x="560" y="394" class="mono lbl">RECENT CHALLENGERS</text>
+  <text x="560" y="410" class="mono log-muted">Be the first to challenge the AI!</text>
+</svg>

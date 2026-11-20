@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="228" viewBox="0 0 880 228" role="img" aria-label="GitHub Telemetry and Language Breakdown for imeshsan2008">
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
+    .sec-hdr { font-size: 10.5px; font-weight: 700; letter-spacing: 1.2px; fill: #656D76; }
+    .kpi-lbl { font-size: 9.5px; font-weight: 700; letter-spacing: 0.9px; fill: #57606A; }
+    .kpi-val { font-size: 21px; font-weight: 800; fill: #1F2328; }
+    .kpi-val-accent { font-size: 21px; font-weight: 800; fill: #CC0000; }
+    .lang-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12.5px; font-weight: 600; fill: #1F2328; }
+    .lang-pct { font-size: 12px; font-weight: 600; fill: #57606A; }
+    .foot { font-size: 10px; font-weight: 500; letter-spacing: 0.7px; fill: #656D76; }
+  </style>
+
+  <!-- Outer card -->
+  <rect x="0.5" y="0.5" width="879" height="227" rx="8" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="1" />
+
+  <!-- Section headers -->
+  <rect x="28" y="24" width="3" height="12" fill="#CC0000" />
+  <text x="38" y="34" class="mono sec-hdr">GITHUB TELEMETRY</text>
+
+  <rect x="484" y="24" width="3" height="12" fill="#CC0000" />
+  <text x="494" y="34" class="mono sec-hdr">CODEBASE DISTRIBUTION</text>
+
+  <!-- Vertical divider -->
+  <line x1="458" y1="22" x2="458" y2="174" stroke="#E5E9EE" stroke-width="1" />
+
+  <!-- 2x2 Flat KPI Matrix -->
+  <g transform="translate(28, 52)">
+    <rect x="0" y="0" width="196" height="54" rx="4" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1" />
+    <text x="14" y="19" class="mono kpi-lbl">PUBLIC REPOS</text>
+    <text x="182" y="43" text-anchor="end" class="mono kpi-val">26</text>
+
+    <rect x="208" y="0" width="196" height="54" rx="4" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1" />
+    <text x="222" y="19" class="mono kpi-lbl">ORIGINAL BUILDS</text>
+    <text x="390" y="43" text-anchor="end" class="mono kpi-val">25</text>
+
+    <rect x="0" y="64" width="196" height="54" rx="4" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1" />
+    <text x="14" y="83" class="mono kpi-lbl">CODE VOLUME</text>
+    <text x="182" y="107" text-anchor="end" class="mono kpi-val-accent">4.5 MB</text>
+
+    <rect x="208" y="64" width="196" height="54" rx="4" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1" />
+    <text x="222" y="83" class="mono kpi-lbl">PUBLIC GISTS</text>
+    <text x="390" y="107" text-anchor="end" class="mono kpi-val">12</text>
+  </g>
+
+  <!-- Segmented flat language bar -->
+  <rect x="484.0" y="60" width="227.0" height="10" rx="1.5" fill="#CC0000" /><rect x="713.0" y="60" width="65.5" height="10" rx="1.5" fill="#1F2328" /><rect x="780.5" y="60" width="60.1" height="10" rx="1.5" fill="#656D76" /><rect x="842.6" y="60" width="9.4" height="10" rx="1.5" fill="#B0B8C1" />
+
+  <!-- Language breakdown legend -->
+  <rect x="484" y="95" width="8" height="8" rx="1" fill="#CC0000" /><text x="500" y="103" class="lang-name">JavaScript</text><text x="658" y="103" text-anchor="end" class="mono lang-pct">62.7%</text><rect x="674" y="95" width="8" height="8" rx="1" fill="#1F2328" /><text x="690" y="103" class="lang-name">HTML</text><text x="848" y="103" text-anchor="end" class="mono lang-pct">18.1%</text><rect x="484" y="133" width="8" height="8" rx="1" fill="#656D76" /><text x="500" y="141" class="lang-name">CSS</text><text x="658" y="141" text-anchor="end" class="mono lang-pct">16.6%</text><rect x="674" y="133" width="8" height="8" rx="1" fill="#B0B8C1" /><text x="690" y="141" class="lang-name">Other</text><text x="848" y="141" text-anchor="end" class="mono lang-pct">2.6%</text>
+
+  <!-- Footer meta strip -->
+  <line x1="0" y1="188" x2="880" y2="188" stroke="#E5E9EE" stroke-width="1" />
+  <text x="28" y="212" class="mono foot">MEMBER SINCE 2022  ·  STARS: 0  ·  FORKS: 2  ·  FOLLOWERS: 2</text>
+  <text x="852" y="212" text-anchor="end" class="mono foot">AUTO-SYNCED · 2026-11-20 UTC</text>
+</svg>

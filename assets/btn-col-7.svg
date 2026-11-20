@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="36" viewBox="0 0 96 36" role="img" aria-label="Drop in Column 7">
+  <rect x="0.5" y="0.5" width="95" height="35" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1" />
+  <rect x="1" y="1" width="94" height="3" rx="1" fill="#DC2626" />
+  <text x="48" y="24" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="0.8" fill="#E6EDF3">▼ COL 07</text>
+</svg>

@@ -1,0 +1,74 @@
+{
+  "match": 1,
+  "board": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "status": "playing",
+  "winner": 0,
+  "win_cells": [],
+  "last_human_move": null,
+  "last_ai_move": null,
+  "last_player": null,
+  "move_count": 0,
+  "stats": {
+    "human_wins": 0,
+    "ai_wins": 0,
+    "draws": 0,
+    "total_moves": 0
+  },
+  "recent_players": [],
+  "updated_at": "2026-11-20T16:50:37Z"
+}

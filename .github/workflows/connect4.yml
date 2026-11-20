@@ -1,0 +1,84 @@
+name: Connect Four README Game
+
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:
+
+concurrency:
+  group: connect4-game
+  cancel-in-progress: false
+
+jobs:
+  play:
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.event.issue.title, 'c4:') || startsWith(github.event.issue.title, 'C4:')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Process Connect Four move
+        id: engine
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          PLAYER: ${{ github.event.issue.user.login || github.actor }}
+        run: |
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            python3 scripts/connect4.py --render-only
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "comment=Board re-rendered manually." >> "$GITHUB_OUTPUT"
+          else
+            python3 scripts/connect4.py --issue-title "$ISSUE_TITLE" --player "$PLAYER"
+          fi
+
+      - name: Commit updated game state and board SVGs
+        if: steps.engine.outputs.changed == 'true'
+        env:
+          PLAYER: ${{ github.event.issue.user.login || github.actor }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add game/state.json assets/connect4-dark.svg assets/connect4-light.svg assets/btn-*.svg README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "game(connect4): move by @${PLAYER}"
+            git pull --rebase origin main
+            git push origin main
+          fi
+
+      - name: Reply and close issue
+        if: github.event_name == 'issues'
+        uses: actions/github-script@v7
+        env:
+          GAME_COMMENT: ${{ steps.engine.outputs.comment }}
+        with:
+          script: |
+            const body = [
+              process.env.GAME_COMMENT || 'Move processed!',
+              '',
+              '---',
+              'Return to the [Profile README](https://github.com/imeshsan2008) to see the updated board and make your next move.'
+            ].join('\n');
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body
+            });
+
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed'
+            });
