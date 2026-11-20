@@ -72,7 +72,7 @@
 
     <rect x="248" y="0" width="114" height="54" rx="4" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1" />
     <text x="260" y="18" class="mono kpi-k">CODEBASE</text>
-    <text x="260" y="42" class="mono kpi-v">4.5 MB</text>
+    <text x="260" y="42" class="mono kpi-v">4.6 MB</text>
 
     <rect x="372" y="0" width="114" height="54" rx="4" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1" />
     <text x="384" y="18" class="mono kpi-k">SINCE</text>

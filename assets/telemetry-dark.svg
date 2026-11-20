@@ -29,7 +29,7 @@
 
     <rect x="0" y="78" width="120" height="68" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1" />
     <text x="12" y="98" class="mono k">CODE VOLUME</text>
-    <text x="12" y="130" class="mono va">4.5 MB</text>
+    <text x="12" y="130" class="mono va">4.6 MB</text>
 
     <rect x="130" y="78" width="120" height="68" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1" />
     <text x="142" y="98" class="mono k">PUBLIC GISTS</text>
@@ -50,8 +50,8 @@
 
   <rect x="626" y="24" width="3" height="12" fill="#DC2626" />
   <text x="636" y="34" class="mono hdr">CODEBASE MIX</text>
-  <rect x="626.0" y="66" width="151.7" height="10" rx="1.5" fill="#DC2626" /><rect x="779.7" y="66" width="43.8" height="10" rx="1.5" fill="#E6EDF3" /><rect x="825.5" y="66" width="40.2" height="10" rx="1.5" fill="#8B949E" /><rect x="867.7" y="66" width="6.3" height="10" rx="1.5" fill="#484F58" />
-  <rect x="626" y="95" width="8" height="8" rx="1" fill="#DC2626" /><text x="642" y="103" class="sans lang-n">JavaScript</text><text x="874" y="103" text-anchor="end" class="mono lang-p">62.7%</text><rect x="626" y="120" width="8" height="8" rx="1" fill="#E6EDF3" /><text x="642" y="128" class="sans lang-n">HTML</text><text x="874" y="128" text-anchor="end" class="mono lang-p">18.1%</text><rect x="626" y="145" width="8" height="8" rx="1" fill="#8B949E" /><text x="642" y="153" class="sans lang-n">CSS</text><text x="874" y="153" text-anchor="end" class="mono lang-p">16.6%</text><rect x="626" y="170" width="8" height="8" rx="1" fill="#484F58" /><text x="642" y="178" class="sans lang-n">Other</text><text x="874" y="178" text-anchor="end" class="mono lang-p">2.6%</text>
+  <rect x="626.0" y="66" width="150.3" height="10" rx="1.5" fill="#DC2626" /><rect x="778.3" y="66" width="43.6" height="10" rx="1.5" fill="#E6EDF3" /><rect x="823.8" y="66" width="39.9" height="10" rx="1.5" fill="#8B949E" /><rect x="865.8" y="66" width="8.2" height="10" rx="1.5" fill="#484F58" />
+  <rect x="626" y="95" width="8" height="8" rx="1" fill="#DC2626" /><text x="642" y="103" class="sans lang-n">JavaScript</text><text x="874" y="103" text-anchor="end" class="mono lang-p">62.1%</text><rect x="626" y="120" width="8" height="8" rx="1" fill="#E6EDF3" /><text x="642" y="128" class="sans lang-n">HTML</text><text x="874" y="128" text-anchor="end" class="mono lang-p">18.0%</text><rect x="626" y="145" width="8" height="8" rx="1" fill="#8B949E" /><text x="642" y="153" class="sans lang-n">CSS</text><text x="874" y="153" text-anchor="end" class="mono lang-p">16.5%</text><rect x="626" y="170" width="8" height="8" rx="1" fill="#484F58" /><text x="642" y="178" class="sans lang-n">Other</text><text x="874" y="178" text-anchor="end" class="mono lang-p">3.4%</text>
 
   <line x1="0" y1="228" x2="900" y2="228" stroke="#21262D" stroke-width="1" />
   <text x="24" y="252" class="mono foot">MEMBER SINCE 2022  ·  FORKS: 2  ·  STARS: 0  ·  FOLLOWERS: 2</text>
