@@ -8,7 +8,7 @@
   <br /><br />
 
   <p>
-    <a href="https://imeshsan2008.github.io/imeshsan2008/"><img src="./assets/dock-arcade.svg" alt="Play 60FPS Arcade" height="32" /></a>
+    <a href="https://imeshsan2008.github.io/arcade.html"><img src="./assets/dock-arcade.svg" alt="Play 60FPS Arcade" height="32" /></a>
     <a href="https://imeshsan2008.github.io/"><img src="./assets/dock-portfolio.svg" alt="Portfolio" height="32" /></a>
     <a href="https://www.linkedin.com/in/imeshsan2008/"><img src="./assets/dock-linkedin.svg" alt="LinkedIn" height="32" /></a>
     <a href="https://www.instagram.com/imeshsan2008/"><img src="./assets/dock-instagram.svg" alt="Instagram" height="32" /></a>
@@ -19,8 +19,8 @@
 
   <br />
 
-  <!-- LIVE PHYSICS CONTRIBUTION BREAKOUT CONSOLE (Clicks directly into 60FPS 3-Game Arcade, zero issues!) -->
-  <a href="https://imeshsan2008.github.io/imeshsan2008/">
+  <!-- LIVE PHYSICS CONTRIBUTION BREAKOUT CONSOLE (Clicks directly into 60FPS Arcade on Portfolio!) -->
+  <a href="https://imeshsan2008.github.io/arcade.html">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./assets/breakout-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="./assets/breakout-light.svg" />
@@ -43,7 +43,7 @@
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="./assets/proj-adobeshield-dark.svg" />
         <source media="(prefers-color-scheme: light)" srcset="./assets/proj-adobeshield-light.svg" />
-        <img src="./assets/proj-adobeshield-dark.svg" alt="AdobeShield — Python Desktop Firewall Utility" width="49%" />
+        <img src="./assets/proj-adobeshield-dark.svg" alt="AdobeShield — Desktop Firewall Utility" width="49%" />
       </picture>
     </a>
   </p>
@@ -99,14 +99,14 @@
   </div>
   <br />
   <ul>
-    <li><strong>Physics Engine:</strong> <a href="./scripts/breakout_engine.py"><code>scripts/breakout_engine.py</code></a> simulates 2D AABB-circle collisions against live GitHub commits and compiles exact keyframes into flat SMIL SVGs.</li>
-    <li><strong>Profile OS Builder:</strong> <a href="./scripts/build_profile.py"><code>scripts/build_profile.py</code></a> syncs live telemetry, 12-week contribution pulse, Bento cards, and exports <a href="./docs/contrib.json"><code>docs/contrib.json</code></a> daily via <a href="./.github/workflows/update-profile.yml"><code>update-profile.yml</code></a>.</li>
-    <li><strong>60FPS Playable Arcade:</strong> <a href="./docs/index.html"><code>docs/index.html</code></a> hosts 3 zero-glow, zero-login browser games (Commit Breakout, Gravity Runner, Minimax Connect-4 Pro) on GitHub Pages.</li>
+    <li><strong>Physics Engine (Pure JS):</strong> <a href="./scripts/breakout-engine.mjs"><code>scripts/breakout-engine.mjs</code></a> simulates 2D AABB-circle collisions against live GitHub commits and compiles exact keyframes into flat SMIL SVGs.</li>
+    <li><strong>Profile OS Builder (Node.js):</strong> <a href="./scripts/build-profile.mjs"><code>scripts/build-profile.mjs</code></a> syncs live telemetry, 12-week contribution pulse, Bento cards, and exports <a href="./assets/contrib.json"><code>assets/contrib.json</code></a> daily via <a href="./.github/workflows/update-profile.yml"><code>update-profile.yml</code></a>.</li>
+    <li><strong>60FPS Playable Portfolio Arcade:</strong> <a href="https://imeshsan2008.github.io/arcade.html"><code>imeshsan2008.github.io/arcade.html</code></a> hosts 3 zero-glow, zero-login HTML5 Canvas games synced live to GitHub commits.</li>
   </ul>
 </details>
 
 <br />
 
 <div align="center">
-  <sub><code>IMESH // OS v2.6</code> · 100% Flat Swiss-Industrial Geometry · Zero Glow · Auto-Synced Daily · <a href="https://imeshsan2008.github.io/">imeshsan2008.github.io</a></sub>
+  <sub><code>IMESH // OS v2.6</code> · Pure JavaScript Engine · Zero Glow · Auto-Synced Daily · <a href="https://imeshsan2008.github.io/">imeshsan2008.github.io</a></sub>
 </div>

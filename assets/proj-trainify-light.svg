@@ -19,10 +19,7 @@
   <text x="44" y="21" class="mono cat">/  SAAS PLATFORM</text>
   <text x="418" y="22" text-anchor="end" class="mono arrow">↗</text>
 
-  <!-- Schematic Icon -->
-  <g transform="translate(22, 48)">
-    <rect x="0" y="0" width="44" height="44" rx="4" fill="#F3F5F7" stroke="#D0D7DE" stroke-width="1"/><rect x="10" y="10" width="10" height="10" rx="1" fill="#CC0000"/><rect x="24" y="10" width="10" height="10" rx="1" fill="none" stroke="#1F2328" stroke-width="1.5"/><rect x="10" y="24" width="10" height="10" rx="1" fill="none" stroke="#57606A" stroke-width="1.5"/><rect x="24" y="24" width="10" height="10" rx="1" fill="#1F2328"/>
-  </g>
+  <g transform="translate(22, 48)"><rect x="0" y="0" width="44" height="44" rx="4" fill="#F3F5F7" stroke="#D0D7DE" stroke-width="1"/><rect x="10" y="10" width="10" height="10" rx="1" fill="#CC0000"/><rect x="24" y="10" width="10" height="10" rx="1" fill="none" stroke="#1F2328" stroke-width="1.5"/><rect x="10" y="24" width="10" height="10" rx="1" fill="none" stroke="#57606A" stroke-width="1.5"/><rect x="24" y="24" width="10" height="10" rx="1" fill="#1F2328"/></g>
 
   <text x="80" y="66" class="sans title">Trainify</text>
   <text x="80" y="86" class="sans desc">Training management platform designed to</text>

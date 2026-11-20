@@ -35,30 +35,23 @@
   <g clip-path="url(#hero-clip-dark)">
     <rect x="0" y="0" width="900" height="292" fill="#0D1117" />
     <rect x="0" y="34" width="548" height="258" fill="url(#hero-grid-dark)" opacity="0.65" />
-    <!-- Top OS Status Bar -->
     <rect x="0" y="0" width="900" height="34" fill="#161B22" />
     <line x1="0" y1="34" x2="900" y2="34" stroke="#30363D" stroke-width="1" />
-    <!-- Right Terminal Hardware Panel -->
     <rect x="548" y="34" width="352" height="258" fill="#161B22" />
     <line x1="548" y1="34" x2="548" y2="292" stroke="#30363D" stroke-width="1" />
-    <!-- Left flat structural crimson accent strip -->
     <rect x="0" y="0" width="5" height="292" fill="#DC2626" />
   </g>
 
-  <!-- Outer 1px border -->
   <rect x="0.5" y="0.5" width="899" height="291" rx="8" fill="none" stroke="#30363D" stroke-width="1" />
 
-  <!-- Top OS Bar Readouts -->
   <rect x="20" y="13" width="8" height="8" rx="1" fill="#DC2626" />
   <text x="36" y="21" class="mono sysbar-hi">IMESH // OS v2.6</text>
   <text x="168" y="21" class="mono sysbar">KELANIYA, LK  ·  06°57'N 79°55'E  ·  UTC+5:30</text>
   <rect x="708" y="13" width="6" height="6" rx="1" fill="#DC2626" class="pulse" />
   <text x="721" y="20.5" class="mono sysbar-hi">ONLINE · OPEN TO BUILD</text>
 
-  <!-- Main Left Identity -->
   <text x="30" y="102" class="sans name">IMESH SANDEEPA<tspan fill="#DC2626">.</tspan></text>
 
-  <!-- Live Cycling Role Ticker (crisp flat box) -->
   <rect x="30" y="118" width="486" height="28" rx="3" fill="#161B22" stroke="#30363D" stroke-width="1" />
   <rect x="30" y="118" width="3" height="28" fill="#DC2626" />
   <text x="44" y="136" class="mono role-txt cycle1">&gt; FOUNDER @ VEXORA IT SOLUTIONS</text>
@@ -66,9 +59,8 @@
   <text x="44" y="136" class="mono role-txt cycle3">&gt; WEB &amp; GRAPHIC DESIGNER · UI ARCHITECTURE</text>
 
   <text x="30" y="174" class="sans bio-txt">Building scalable SaaS platforms, zero-tracking Chrome extensions,</text>
-  <text x="30" y="193" class="sans bio-txt">Python utilities, and sharp visual systems without noise.</text>
+  <text x="30" y="193" class="sans bio-txt">desktop utilities, and sharp visual systems without noise.</text>
 
-  <!-- Bottom Hardware KPI Switches -->
   <g transform="translate(30, 214)">
     <rect x="0" y="0" width="114" height="54" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1" />
     <text x="12" y="18" class="mono kpi-k">REPOSITORIES</text>
@@ -76,7 +68,7 @@
 
     <rect x="124" y="0" width="114" height="54" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1" />
     <text x="136" y="18" class="mono kpi-k">12M COMMITS</text>
-    <text x="136" y="42" class="mono kpi-va">287</text>
+    <text x="136" y="42" class="mono kpi-va">288</text>
 
     <rect x="248" y="0" width="114" height="54" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1" />
     <text x="260" y="18" class="mono kpi-k">CODEBASE</text>
@@ -87,7 +79,6 @@
     <text x="384" y="42" class="mono kpi-v">2022</text>
   </g>
 
-  <!-- Right Precision Terminal Module -->
   <rect x="570" y="54" width="308" height="156" rx="4" fill="#090C10" stroke="#30363D" stroke-width="1" />
   <rect x="570" y="54" width="308" height="24" rx="4" fill="#0D1117" />
   <line x1="570" y1="78" x2="878" y2="78" stroke="#30363D" stroke-width="1" />
@@ -96,15 +87,12 @@
 
   <text x="582" y="100" class="mono term-k">org     </text><text x="646" y="100" class="mono term-v">Vexora IT Solutions (Founder)</text>
   <text x="582" y="121" class="mono term-k">focus   </text><text x="646" y="121" class="mono term-v">SaaS · Extensions · Utilities</text>
-  <text x="582" y="142" class="mono term-k">code    </text><text x="646" y="142" class="mono term-v">JS · Python · Node · Postgres</text>
+  <text x="582" y="142" class="mono term-k">code    </text><text x="646" y="142" class="mono term-v">JS · Node · Python · Postgres</text>
   <text x="582" y="163" class="mono term-k">design  </text><text x="646" y="163" class="mono term-v">UI/UX · PS · AI · CorelDRAW</text>
   <text x="582" y="184" class="mono term-k">deploy  </text><text x="646" y="184" class="mono term-v">DigitalOcean · Koyeb · Linux</text>
   <text x="582" y="201" class="mono kpi-k">STATUS: SHIPPING CLEAN SYSTEMS</text>
 
-  <!-- Bottom-right Mechanical Telemetry Strip (equalizer bars + rotating reticle) -->
   <rect x="570" y="222" width="308" height="46" rx="4" fill="#090C10" stroke="#30363D" stroke-width="1" />
-
-  <!-- Flat hardware signal bars (zero glow) -->
   <g transform="translate(584, 232)">
     <rect x="0" y="14" width="5" height="12" rx="1" fill="#DC2626"><animate attributeName="height" values="8;24;12;20;8" dur="1.9s" repeatCount="indefinite"/><animate attributeName="y" values="18;2;14;6;18" dur="1.9s" repeatCount="indefinite"/></rect>
     <rect x="9" y="6" width="5" height="20" rx="1" fill="#E6EDF3"><animate attributeName="height" values="20;10;24;12;20" dur="1.5s" repeatCount="indefinite"/><animate attributeName="y" values="6;16;2;14;6" dur="1.5s" repeatCount="indefinite"/></rect>
@@ -115,9 +103,8 @@
   </g>
 
   <text x="650" y="242" class="mono term-cmd">SIGNAL // ACTIVE</text>
-  <text x="650" y="257" class="mono kpi-k">AUTOMATED PROFILE ENGINE</text>
+  <text x="650" y="257" class="mono kpi-k">PURE NODE.JS PROFILE ENGINE</text>
 
-  <!-- Rotating geometric precision dial -->
   <g transform="translate(850, 245)">
     <circle cx="0" cy="0" r="14" fill="none" stroke="#30363D" stroke-width="1" stroke-dasharray="3 3">
       <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="18s" repeatCount="indefinite" />
