@@ -1,4 +1,4 @@
-name: Update GitHub Telemetry SVGs
+name: Build IMESH OS Profile & Breakout Engine
 
 on:
   schedule:
@@ -8,10 +8,10 @@ on:
     branches:
       - main
     paths:
-      - "scripts/update_stats.py"
+      - "scripts/**"
 
 jobs:
-  update-stats:
+  build-profile:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -25,19 +25,21 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate telemetry SVGs
+      - name: Run Profile OS & Breakout Physics Builder
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: ${{ github.repository_owner }}
-        run: python3 scripts/update_stats.py
+        run: |
+          python3 scripts/breakout_engine.py
+          python3 scripts/build_profile.py
 
-      - name: Commit updated stats SVGs
+      - name: Commit updated SVGs & Arcade level data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats-dark.svg assets/stats-light.svg
+          git add assets/*.svg docs/contrib.json
           if ! git diff --cached --quiet; then
-            git commit -m "chore(stats): refresh GitHub telemetry SVGs"
+            git commit -m "chore(os): refresh breakout physics, telemetry & profile SVGs"
             git pull --rebase origin main
             git push origin main
           fi
