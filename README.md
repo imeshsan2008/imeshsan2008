@@ -48,7 +48,7 @@
     </a>
   </p>
   <p>
-    <a href="https://github.com/imeshsan2008/Trainify">
+    <a href="https://github.com/imeshsan2008/Trainify](https://github.com/imeshsan2008/Trainify/releases/tag/latest">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="./assets/proj-trainify-dark.svg" />
         <source media="(prefers-color-scheme: light)" srcset="./assets/proj-trainify-light.svg" />
